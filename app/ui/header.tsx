@@ -10,10 +10,7 @@ function GetGithubImage(username: string): string {
 
 export default function Header(props: HeaderProps) {
   return (
-    <div style={{
-        padding: '0',
-        margin: '0',
-    }}>
+    <div>
         <div style={{
             display: 'flex',
             justifyContent: 'space-between',
