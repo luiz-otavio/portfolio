@@ -10,7 +10,9 @@ export default function Center() {
                 backgroundColor: '#131313',
                 color: '#D9D9D9',
             }}>
-                <div>
+                <div style={{
+                    borderRight: '1rem solid #0C95E2'
+                }}>
                     <strong style={{
                         fontSize: '6rem',
                         fontStyle: 'bold',

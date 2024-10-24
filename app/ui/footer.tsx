@@ -12,6 +12,9 @@ export default function Footer() {
                 <strong style={{
                     fontSize: '4rem',
                     color: '#0C95E2',
+                    textDecoration: 'underline',
+                    textUnderlineOffset: '1rem',
+                    textDecorationThickness: '7px'
                 }}>PROJETOS</strong>
             </div>
             <div style={{
