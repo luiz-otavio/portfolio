@@ -42,7 +42,7 @@ export default function Footer() {
                         Através da implementação de uma interface, é possível criar uma representação de um campo de texto com placeholders.
                     </span>
                     <a href="https://github.com/luiz-otavio/placeholder4j">
-                        <img src='github-1.svg' style={{
+                        <img src='/portfolio/github-1.svg' style={{
                             width: '3rem',
                             height: '3rem',
                         }}/>
@@ -69,7 +69,7 @@ export default function Footer() {
                         com opções de personalização.
                     </span>
                     <a href="https://github.com/luiz-otavio/slime-korld" target="_blank">
-                        <img src='github-1.svg' style={{
+                        <img src='/portfolio/github-1.svg' style={{
                             width: '3rem',
                             height: '3rem',
                         }}/>
