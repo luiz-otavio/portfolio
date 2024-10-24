@@ -19,13 +19,14 @@ export default function Header(props: HeaderProps) {
             borderBottom: '3px solid #0C95E2',
             backgroundColor: '#131313',
         }}>
-            <h1 style={{
+            <strong style={{
                 display: 'flex',
                 alignItems: 'center',
                 margin: '0',
                 textSizeAdjust: 'auto',
+                fontSize: '2rem',
                 color: '#D9D9D9',
-            }}>Portfolio</h1>
+            }}>PORTFOLIO</strong>
             <div style={{    
                 display: 'flex',
                 alignItems: 'center',
