@@ -1,12 +1,10 @@
-import { Roboto } from 'next/font/google'
-
-import Head from 'next/head';
+import { Poppins } from 'next/font/google'
 
 import Center from './ui/center'
 import Header from './ui/header'
 import Footer from './ui/footer'
 
-const roboto = Roboto({
+const poppins = Poppins({
   weight: '400',
   style: 'normal',
   subsets: ['latin']
@@ -14,7 +12,7 @@ const roboto = Roboto({
 
 export default function Page() {
   return (
-    <main className={roboto.className}>
+    <main className={poppins.className}>
       <link rel="icon" href="/portfolio/favicon.ico" sizes="any" />
       <div>
         <Header

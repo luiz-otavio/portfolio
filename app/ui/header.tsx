@@ -36,13 +36,13 @@ export default function Header(props: HeaderProps) {
                 justifyContent: 'center',
             }}>
                 <a href={props.GithubURL} target='_blank'>
-                    <img src='portfolio/github-1.svg' style={{
+                    <img src='/portfolio/github-1.svg' style={{
                         width: '3rem',
                         height: '3rem',
                     }}/>
                 </a>
                 <a href={props.LinkedinURL} target='_blank'>
-                    <img src='portfolio/linkedin.png' style={{
+                    <img src='/portfolio/linkedin.png' style={{
                         width: '3rem',
                         height: '3rem',
                     }}/>
